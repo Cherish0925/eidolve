@@ -1,5 +1,5 @@
 <p>
-  <img src="assets/readme-header.png" alt="Eidolve — A persistent Universe for knowledge, research, and intelligence." width="1280">
+  <img src="assets/readme-header.png" alt="Eidolve — A shared Universe where knowledge, research, and intelligence connect, persist, and evolve." width="1280">
 </p>
 
 [Universe](docs/UNIVERSE.md) · [Foundations](docs/FOUNDATIONS.md) · [Architecture](docs/ARCHITECTURE.md) · [Research agenda](docs/RESEARCH.md)
