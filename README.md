@@ -1,6 +1,8 @@
-# Eidolve
+<p>
+  <img src="assets/readme-header.png" alt="Eidolve — A persistent Universe for knowledge, research, and intelligence." width="1280">
+</p>
 
-**A persistent Universe for knowledge, research, and intelligence.**
+[Universe](docs/UNIVERSE.md) · [Foundations](docs/FOUNDATIONS.md) · [Architecture](docs/ARCHITECTURE.md) · [Research agenda](docs/RESEARCH.md)
 
 Eidolve is an independent open-source project to build a universal, connected, searchable, and evolving world for AI, LLMs, agents, humans, and research systems.
 
