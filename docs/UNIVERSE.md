@@ -18,7 +18,7 @@ A paper and the code that implements it; an experiment and the decision it chang
 
 ## Broader than any single system
 
-The Universe is not another name for a database, file system, knowledge graph, wiki, search engine, memory system, model, agent framework, workflow, infrastructure stack, or training platform.
+The Universe is not another name for a database, file system, knowledge graph, wiki, search engine, memory system, model, agent framework, workflow, infrastructure stack, training platform, or evaluation system.
 
 Those systems address different parts of the problem:
 
@@ -29,6 +29,7 @@ Those systems address different parts of the problem:
 - search discovers and ranks what matters;
 - Git preserves evolution and distributed contribution;
 - memory carries experience across time;
+- evaluation distinguishes capability, failure, and improvement;
 - models and agents interpret, reason, research, decide, and act.
 
 Eidolve seeks to make them cooperate around the same underlying world rather than remain separate products with separate realities.
@@ -46,6 +47,16 @@ The current context of an agent is therefore not the Universe itself. It is only
 The Universe is not a static archive. New artifacts enter it. Relations are discovered. Knowledge is synthesized. Claims are supported, revised, or rejected. Research opens new questions. Models and agents create new interpretations and capabilities. People reorganize and deepen shared understanding.
 
 The history of these changes is part of the Universe, not incidental metadata. The system must preserve both what is currently understood and how that understanding developed.
+
+## A world that can examine intelligence
+
+The scientific and engineering world continually produces new knowledge, observations, experiments, tools, workflows, solved problems, failures, and requirements. Because this frontier keeps moving, Universe can provide a continuing source of fresh tasks for testing models, harnesses, agents, and complete research systems.
+
+Turning new work into a valid examination requires more than collecting documents. Eidolve must filter noise, recover the original intellectual or engineering difficulty, preserve the required environment, define observable success, track exposure and contamination, and connect every task to its source, assumptions, baselines, and outcomes.
+
+This enables comparison between models, between harnesses, and between complete systems. It also makes improvement traceable: the Universe can preserve which system version attempted which task, with which context, tools, memory, environment, cost, artifacts, failures, and results. Evaluation then becomes part of the history of intelligence inside Universe.
+
+This capability remains one part of the larger world. Universe also exists to preserve and connect knowledge, information, files, research, memory, people, systems, and intelligent work whose purposes extend far beyond evaluation.
 
 ## The purpose
 
