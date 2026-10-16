@@ -1,6 +1,6 @@
 # Research Agenda
 
-Eidolve is not only a software implementation problem. Building a useful Universe requires advances in information systems, knowledge representation, search, memory, human–AI interaction, autonomous research, and the organization of long-lived intelligent work.
+Eidolve is not only a software implementation problem. Building a useful Universe requires advances in information systems, knowledge representation, search, memory, human–AI interaction, autonomous research, evaluation, and the organization of long-lived intelligent work.
 
 The research program is organized around a single question:
 
@@ -42,6 +42,38 @@ A model or agent can only attend to a small part of the Universe at one time. Th
 
 The research challenge is not merely retrieving more information, but selecting and organizing the part of the Universe that best supports understanding, reasoning, research, and decision-making while preserving paths back to the larger world.
 
+## The changing frontier as an evaluation source
+
+Scientific and engineering work continually creates new facts, observations, solved problems, methods, tools, workflows, environments, requirements, and failure modes. This produces an open-ended stream of material for evaluating models and harnesses under conditions that could not all have been anticipated in a fixed benchmark.
+
+The research problem is to build filters that distinguish substantive novelty from duplication and noise, recover the original difficulty before the answer was known, reconstruct the required environment, define externally observable success, and preserve provenance and exposure history.
+
+A strong task generator should not maximize the number of questions. It should produce examinations that reveal capability differences, resist contamination and imitation, remain reproducible, and predict performance on later real work.
+
+## Model–harness attribution
+
+Observed system performance depends jointly on the model and its harness: context construction, memory, prompts, tools, planning, execution, environment interaction, feedback, and runtime control.
+
+Eidolve should support controlled comparisons that vary one component while holding others fixed. The same model should be compared across harnesses; different models should be compared under the same harness; complete systems should also be evaluated end to end.
+
+The research objective is causal attribution. When performance changes, the system should determine whether the cause is model reasoning, world knowledge, retrieval, memory, instruction design, tool use, planning, execution, environment quality, scoring, or an interaction among them. Without this separation, system improvement reduces to uncontrolled trial and error.
+
+## Continual examinations and blue–green evolution
+
+A minimal prototype contains one examiner and two research systems. The examiner converts selected frontier work into versioned tasks and environments. The blue system is the stable baseline. The green system is the candidate. Both operate under matched conditions, and the Universe preserves their versions, inputs, contexts, tools, traces, artifacts, costs, failures, and outcomes.
+
+Research is needed on promotion rules that detect real improvement without hiding regressions. Aggregate scores should be supplemented by capability slices, fresh hidden tasks, temporal holdouts, retained regression suites, cost and reliability measures, and performance on real projects. State transfer and rollback should preserve continuity of the Universe.
+
+Blue and green may also critique, challenge, reproduce, test, or assist one another. Useful cooperative and adversarial interaction must be separated from answer leakage, benchmark overfitting, circular self-evaluation, and convergence toward the same blind spots.
+
+## Benchmark integrity and proxy control
+
+A benchmark becomes misleading when it is contaminated, saturated, cheaply imitated without the intended skill, weakly related to real work, or dominated by artifacts of its scoring procedure.
+
+Eidolve should track the relation among the intended capability, task construction, scoring rule, system exposure, and downstream performance. Training data, development tasks, public tests, hidden tests, temporal holdouts, and live operational measurements must remain distinguishable.
+
+Evaluation sets should be revised or retired when their predictive value decays. Generated variants should be accepted only when they preserve the underlying difficulty and have checked outcomes. A metric should never become the objective after it stops measuring the capability that motivated it.
+
 ## Autonomous research and discovery
 
 The Universe should support the complete life of research: problems, background, literature, hypotheses, methods, code, experiments, evidence, failures, results, criticism, decisions, and open questions.
@@ -54,8 +86,8 @@ Eidolve should serve not only inference, but also learning, evaluation, training
 
 The long-term goal is a productive relationship in which models and agents improve their use of the Universe, while their research and experience improve the Universe itself.
 
-## Evaluation
+## Evaluation of Eidolve
 
-Eidolve should be judged by whether it improves real work, not by the size of its graph, index, database, or file collection.
+Eidolve should be judged by whether it improves real work, not by the size of its graph, index, database, file collection, benchmark suite, or documentation.
 
-The decisive questions are whether it enables better continuity, discovery, understanding, reuse, reasoning, decisions, research, collaboration, transfer of experience, and long-term development across people and intelligent systems.
+The decisive questions are whether it enables better continuity, discovery, understanding, reuse, reasoning, decisions, research, collaboration, transfer of experience, causal comparison of systems, and long-term development across people and intelligent systems.
