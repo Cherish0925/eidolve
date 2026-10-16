@@ -2,13 +2,13 @@
   <img src="assets/readme-header.png" alt="Eidolve — A shared Universe where knowledge, research, and intelligence connect, persist, and evolve." width="1280">
 </p>
 
-[Universe](docs/UNIVERSE.md) · [Foundations](docs/FOUNDATIONS.md) · [Architecture](docs/ARCHITECTURE.md) · [Research agenda](docs/RESEARCH.md)
+[Universe](docs/UNIVERSE.md) · [Foundations](docs/FOUNDATIONS.md) · [Architecture](docs/ARCHITECTURE.md) · [Research agenda](docs/RESEARCH.md) · [Evaluation and evolution](docs/EVALUATION_AND_EVOLUTION.md) · [Research and engineering standard](docs/RESEARCH_AND_ENGINEERING_STANDARD.md)
 
 Eidolve is an independent open-source project to build a universal, connected, searchable, and evolving world for AI, LLMs, agents, humans, and research systems.
 
 Its core concept is **Universe**: a shared and persistent world in which information, files, data, code, papers, experiments, evidence, knowledge, memory, research processes, models, agents, people, tools, systems, environments, histories, and relationships can be preserved, connected, searched, understood, used, revised, and extended across systems, servers, versions, users, projects, and sessions.
 
-Eidolve is not reducible to a database, file system, knowledge graph, wiki, search engine, memory system, agent framework, model-training platform, data pipeline, or research workflow. Each may become part of the Universe, but none defines it alone.
+Eidolve is not reducible to a database, file system, knowledge graph, wiki, search engine, memory system, agent framework, model-training platform, data pipeline, evaluation system, or research workflow. Each may become part of the Universe, but none defines it alone.
 
 ## The idea
 
@@ -37,6 +37,12 @@ Eidolve draws on several foundational ideas without collapsing into any one of t
 
 These foundations must work as one system. Search must understand relations and history. Wiki synthesis must remain connected to evidence and artifacts. Graphs must connect rather than replace files. Git must preserve evolution without forcing every kind of data into one repository. AI and humans must be able to read from, reason over, act through, and contribute back to the same Universe.
 
+## Continuous evaluation and evolution
+
+The scientific and engineering frontier continuously produces new knowledge, observations, tools, workflows, requirements, solved problems, and failures. Eidolve can turn this changing world into a continuing supply of high-quality examinations by filtering noise, recovering the original task, preserving the required environment, defining observable success, and recording provenance and exposure.
+
+This supports separate evaluation of models, harnesses, and complete model–harness systems. A minimal implementation uses one examiner system to build and maintain tasks and environments, one stable blue system, and one candidate green system. Blue and green are compared under matched conditions; promotion depends on real capability, reliability, cost, regression control, and fresh tasks rather than one benchmark score. This is one function of Universe, not its boundary.
+
 ## Core principles
 
 1. **One Universe, not isolated silos.** Information, knowledge, artifacts, memory, research, systems, and intelligence must remain connected.
@@ -48,7 +54,9 @@ These foundations must work as one system. Search must understand relations and 
 7. **Humans and machine intelligence are both native participants.** The system is neither merely human documentation nor merely an AI memory layer.
 8. **No model, vendor, application, or infrastructure defines the Universe.** All are participants and integrations.
 9. **Research is not an attachment.** Questions, hypotheses, methods, experiments, evidence, failures, results, and decisions belong inside the same world.
-10. **The Universe must improve through use.** Retrieval, reasoning, research, feedback, and new evidence should deepen the shared world rather than disappear into temporary context.
+10. **The Universe must improve through use.** Retrieval, reasoning, research, feedback, evaluation, and new evidence should deepen the shared world rather than disappear into temporary context.
+11. **Metrics remain subordinate to purpose.** Benchmarks, tests, verifiers, and reward signals matter only while they continue to measure the intended capability and predict real work.
+12. **Activity is not progress.** A contribution should improve understanding, methods, capability, reliability, transfer, or outcomes rather than merely add structure or volume.
 
 ## Name
 
@@ -64,6 +72,8 @@ Eidolve is an independent project. Qiushi Engine may integrate with it, use it, 
 - [Foundations](docs/FOUNDATIONS.md)
 - [Architecture](docs/ARCHITECTURE.md)
 - [Research agenda](docs/RESEARCH.md)
+- [Continuous evaluation and evolution](docs/EVALUATION_AND_EVOLUTION.md)
+- [Research and engineering standard](docs/RESEARCH_AND_ENGINEERING_STANDARD.md)
 
 ## Status
 
